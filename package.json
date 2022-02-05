@@ -1,0 +1,27 @@
+{
+  "name": "codility",
+  "version": "1.0.0",
+  "description": "Resolution of codility tasks.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferreirasara/codility.git"
+  },
+  "keywords": [
+    "codility"
+  ],
+  "author": "Sara Ferreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferreirasara/codility/issues"
+  },
+  "homepage": "https://github.com/ferreirasara/codility#readme",
+  "dependencies": {
+    "jest": "^27.4.7"
+  }
+}
