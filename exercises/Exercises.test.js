@@ -1,5 +1,6 @@
 import {solution as LongestPasswordSolution } from './Exercise01LongestPassword';
 import {solution as TennisTournament } from './Exercise03TennisTournament';
+import {solution as FirstUnique } from './Exercise04FirstUnique';
 
 describe(`Tests Exercise01LongestPassword`, () => {
   it(`test 5 a0A pass007 ?xy1 should return 7`, () => {
@@ -28,5 +29,20 @@ describe(`Tests Exercise03TennisTournament`, () => {
   it(`P = 10 and C = 5 should return 5`, () => {
     const result = TennisTournament(10, 5)
     expect(result).toBe(5);
+  });
+});
+
+describe(`Tests Exercise04FirstUnique`, () => {
+  it(`[4, 10, 5, 4, 2, 10] should return 5`, () => {
+    const result = FirstUnique([4, 10, 5, 4, 2, 10])
+    expect(result).toBe(5);
+  });
+  it(`[1, 4, 3, 3, 1, 2] should return 4`, () => {
+    const result = FirstUnique([1, 4, 3, 3, 1, 2])
+    expect(result).toBe(4);
+  });
+  it(`[6, 4, 4, 6] should return -1`, () => {
+    const result = FirstUnique([6, 4, 4, 6])
+    expect(result).toBe(-1);
   });
 });
