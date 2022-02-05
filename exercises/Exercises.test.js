@@ -26,7 +26,7 @@ describe(`Tests Exercise03TennisTournament`, () => {
     expect(result).toBe(3);
   });
   it(`P = 10 and C = 5 should return 5`, () => {
-    const result = TennisTournament(10, 3)
-    expect(result).toBe(3);
+    const result = TennisTournament(10, 5)
+    expect(result).toBe(5);
   });
 });
