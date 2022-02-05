@@ -1,0 +1,34 @@
+Array.pop() removes last elements and returns it. Array.shift() is the same, but for the first element
+[0,1,2,3,4,5].slice(2,4) will return [2,3]
+[0,1,2,3,4,5].splice(3,1) will turn array into [1,2,4,5]
+To known if a number is a integer: Number.isInteger(n)
+To turn a number into binary: number.toString(2)
+To avoid JS rounding problems, use integers instead of float numbers. Ex: 350 cents instead of 3,50 USD
+Get keys from some object: Object.keys(object)
+Get values from some object: Object.values(object)
+To turn a string into a array: str.split('')
+To round numbers, try Math.ceil(n), Math.floor(n) or Math.round(n)
+To sort a objects array: arr.sort((a,b) => a.field - b.field)
+To get the sum of a array: arr.reduce((a,b) => a + b)
+To create a array like [0,1,2,3,4]: Array.from(Array(5).keys())
+To create a array like [0,0,0,0,0]: new Array(5).fill(0)
+Get only unique values from array: unique_array = [...new Set(my_array)]
+How to sort a string: str.split('').sort().join('')
+
+# Important tricks
+- Array.pop() removes last elements and returns it. Array.shift() is the same, but for the first element<br>
+- [0,1,2,3,4,5].slice(2,4) will return [2,3]<br>
+- [0,1,2,3,4,5].splice(3,1) will turn array into [1,2,4,5]<br>
+- To known if a number is a integer: Number.isInteger(n)<br>
+- To turn a number into binary:  number.toString(2)<br>
+- To avoid JS rounding problems, use integers instead of float numbers. Ex: 350 cents instead of 3,50 USD<br>
+- Get keys from some object: Object.keys(object)<br>
+- Get values from some object: Object.values(object)<br>
+- To turn a string into a array: str.split('')<br>
+- To round numbers, try Math.ceil(n), Math.floor(n) or Math.round(n)<br>
+- To sort a objects array: arr.sort((a,b) => a.field - b.field)<br>
+- To get the sum of a array: arr.reduce((a,b) => a + b)<br>
+- To create a array like [0,1,2,3,4]: Array.from(Array(5).keys())<br>
+- To create a array like [0,0,0,0,0]: new Array(5).fill(0)<br>
+- Get only unique values from array: unique_array = [...new Set(my_array)]<br>
+- How to sort a string: str.split('').sort().join('')<br>
