@@ -1,1 +1,1 @@
-# codility
+# code-challenges

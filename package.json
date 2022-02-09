@@ -1,7 +1,7 @@
 {
-  "name": "codility",
+  "name": "code-challenges",
   "version": "1.0.0",
-  "description": "Resolution of codility tasks.",
+  "description": "Resolution of code challenges.",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ferreirasara/codility.git"
+    "url": "git+https://github.com/ferreirasara/code-challenges.git"
   },
   "keywords": [
-    "codility"
+    "code-challenges"
   ],
   "author": "Sara Ferreira",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ferreirasara/codility/issues"
+    "url": "https://github.com/ferreirasara/code-challenges/issues"
   },
-  "homepage": "https://github.com/ferreirasara/codility#readme",
+  "homepage": "https://github.com/ferreirasara/code-challenges#readme",
   "dependencies": {
     "jest": "^27.4.7"
   }
