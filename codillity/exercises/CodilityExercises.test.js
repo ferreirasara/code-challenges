@@ -2,7 +2,7 @@ import {solution as LongestPasswordSolution } from './Exercise01LongestPassword'
 import {solution as TennisTournament } from './Exercise03TennisTournament';
 import {solution as FirstUnique } from './Exercise04FirstUnique';
 
-describe(`Tests Exercise01LongestPassword`, () => {
+describe(`[Codility] Tests Exercise01LongestPassword`, () => {
   it(`test 5 a0A pass007 ?xy1 should return 7`, () => {
     const result = LongestPasswordSolution('test 5 a0A pass007 ?xy1')
     expect(result).toBe(7);
@@ -17,7 +17,7 @@ describe(`Tests Exercise01LongestPassword`, () => {
   });
 });
 
-describe(`Tests Exercise03TennisTournament`, () => {
+describe(`[Codility] Tests Exercise03TennisTournament`, () => {
   it(`P = 5 and C = 3 should return 2`, () => {
     const result = TennisTournament(5, 3)
     expect(result).toBe(2);
@@ -32,7 +32,7 @@ describe(`Tests Exercise03TennisTournament`, () => {
   });
 });
 
-describe(`Tests Exercise04FirstUnique`, () => {
+describe(`[Codility] Tests Exercise04FirstUnique`, () => {
   it(`[4, 10, 5, 4, 2, 10] should return 5`, () => {
     const result = FirstUnique([4, 10, 5, 4, 2, 10])
     expect(result).toBe(5);
