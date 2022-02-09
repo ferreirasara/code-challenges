@@ -4,6 +4,7 @@ import { lonelyinteger } from './LonelyInteger';
 import { miniMaxSum } from './MiniMaxSum';
 import { plusMinus } from './PlusMinus';
 import { timeConversion } from './TimeConversion';
+import { diagonalDifference } from './DiagonalDifference';
 
 describe(`[Hacker Rank] Tests FindMedian`, () => {
   it(`[1, 4, 3] should return 3`, () => {
@@ -39,5 +40,12 @@ describe(`[Hacker Rank] Tests TimeConversion`, () => {
   it(`02:45:23PM should return 14:45:23`, () => {
     const result = timeConversion('02:45:23PM')
     expect(result).toBe('14:45:23');
+  });
+});
+
+describe(`[Hacker Rank] Tests TimeConversion`, () => {
+  it(`[[11, 2, 4], [4, 5, 6], [10, 8, -12]] should return 15`, () => {
+    const result = diagonalDifference([[11, 2, 4], [4, 5, 6], [10, 8, -12]])
+    expect(result).toBe(15);
   });
 });
