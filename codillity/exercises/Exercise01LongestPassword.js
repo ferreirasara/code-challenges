@@ -1,4 +1,5 @@
 // Given a string containing words, find the longest word that satisfies specific conditions.
+// https://app.codility.com/programmers/trainings/1/longest_password/
 
 function isValid(password) {
   const specialCharRegex = /[^a-zA-Z0-9]/g

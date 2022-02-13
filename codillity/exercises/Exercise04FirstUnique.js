@@ -1,4 +1,5 @@
 // Find the first unique number in a given sequence.
+// https://app.codility.com/programmers/trainings/4/first_unique/
 
 export function solution(A) {
   // write your code in JavaScript (Node.js 8.9.4)
