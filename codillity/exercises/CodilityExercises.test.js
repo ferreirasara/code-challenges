@@ -2,6 +2,9 @@ import {solution as LongestPasswordSolution } from './Exercise01LongestPassword'
 import {solution as TennisTournament } from './Exercise03TennisTournament';
 import {solution as FirstUnique } from './Exercise04FirstUnique';
 
+// To run this test only:
+// npm test -- codility/exercises/CodilityExercises.test.js
+
 describe(`[Codility] Tests Exercise01LongestPassword`, () => {
   it(`test 5 a0A pass007 ?xy1 should return 7`, () => {
     const result = LongestPasswordSolution('test 5 a0A pass007 ?xy1')

@@ -8,6 +8,9 @@ import { diagonalDifference } from './DiagonalDifference';
 import { countingSort } from './CountingSort1';
 import { caesarCipher } from './CaesarCipher';
 
+// To run this test only:
+// npm test -- hackerrank/HackerRank.test.js
+
 describe(`[Hacker Rank] Tests FindMedian`, () => {
   it(`[1, 4, 3] should return 3`, () => {
     const result = findMedian([1, 4, 3])
