@@ -11,6 +11,7 @@ Resolution of code challenges.
   - [Tennis Tournament](https://github.com/ferreirasara/code-challenges/blob/main/codillity/exercises/Exercise03TennisTournament.js)
 - **HackerRank**:
   - [Caesar Cipher](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/CaesarCipher.js)
+  - [Compare The Triplets](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/CompareTheTriplets.js)
   - [Counting Sort 1](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/CountingSort1.js)
   - [Diagonal Difference](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/DiagonalDifference.js)
   - [Find The Median](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/FindTheMedian.js)

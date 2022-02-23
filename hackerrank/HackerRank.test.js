@@ -7,6 +7,7 @@ import { timeConversion } from './TimeConversion';
 import { diagonalDifference } from './DiagonalDifference';
 import { countingSort } from './CountingSort1';
 import { caesarCipher } from './CaesarCipher';
+import { compareTriplets } from './CompareTheTriplets';
 
 // To run this test only:
 // npm test -- hackerrank/HackerRank.test.js
@@ -66,5 +67,12 @@ describe(`[Hacker Rank] Tests CaesarCipher`, () => {
   it(`Always-Look-on-the-Bright-Side-of-Life should return Fqbfdx-Qttp-ts-ymj-Gwnlmy-Xnij-tk-Qnkj`, () => {
     const result = caesarCipher('Always-Look-on-the-Bright-Side-of-Life', 5)
     expect(result).toBe('Fqbfdx-Qttp-ts-ymj-Gwnlmy-Xnij-tk-Qnkj');
+  });
+});
+
+describe(`[Hacker Rank] Tests CompareTheTriplets`, () => {
+  it(`[17, 28, 30], [99, 16, 8] should return [2, 1]`, () => {
+    const result = compareTriplets([17, 28, 30], [99, 16, 8])
+    expect(result).toStrictEqual([2, 1]);
   });
 });
