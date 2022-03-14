@@ -8,6 +8,7 @@ import { diagonalDifference } from './DiagonalDifference';
 import { countingSort } from './CountingSort1';
 import { caesarCipher } from './CaesarCipher';
 import { compareTriplets } from './CompareTheTriplets';
+import { superDigit } from './RecursiveDigitSum';
 
 // To run this test only:
 // npm test -- hackerrank/HackerRank.test.js
@@ -74,5 +75,20 @@ describe(`[Hacker Rank] Tests CompareTheTriplets`, () => {
   it(`[17, 28, 30], [99, 16, 8] should return [2, 1]`, () => {
     const result = compareTriplets([17, 28, 30], [99, 16, 8])
     expect(result).toStrictEqual([2, 1]);
+  });
+});
+
+describe(`[Hacker Rank] Tests RecursiveDigitSum`, () => {
+  it(`(148, 3) should return 3`, () => {
+    const result = superDigit('148', 3)
+    expect(result).toBe('3');
+  });
+  it(`(9875, 4) should return 3`, () => {
+    const result = superDigit('9875',4)
+    expect(result).toBe('8');
+  });
+  it(`(123, 3) should return 3`, () => {
+    const result = superDigit('123', 3)
+    expect(result).toBe('9');
   });
 });

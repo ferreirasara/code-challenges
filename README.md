@@ -18,6 +18,7 @@ Resolution of code challenges.
   - [Lonely Integer](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/LonelyInteger.js)
   - [Mini Max Sum](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/MiniMaxSum.js)
   - [Plus Minus](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/PlusMinus.js)
+  - [Recursive Digit Sum](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/RecursiveDigitSum.js)
   - [Time Conversion](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/TimeConversion.js)
 
 ## 🔎 Run Tests
