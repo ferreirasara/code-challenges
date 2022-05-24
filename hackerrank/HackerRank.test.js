@@ -9,6 +9,7 @@ import { countingSort } from './CountingSort1';
 import { caesarCipher } from './CaesarCipher';
 import { compareTriplets } from './CompareTheTriplets';
 import { superDigit } from './RecursiveDigitSum';
+import { cardinalitySort } from './CardinalitySorting';
 
 // To run this test only:
 // npm test -- hackerrank/HackerRank.test.js
@@ -36,7 +37,7 @@ describe(`[Hacker Rank] Tests MiniMaxSum`, () => {
 });
 
 describe(`[Hacker Rank] Tests PlusMinus`, () => {
-  it(`[1, 5, 4, 2, 6] should return 1\\n0\\n0`, () => {
+  it(`[1, 5, 4, 2, 6] should console.log 1\\n0\\n0`, () => {
     console.log = jest.fn();
     plusMinus([1, 5, 4, 2, 6])
     expect(console.log).toHaveBeenCalledWith(1, '\n', 0, '\n', 0);
@@ -84,11 +85,18 @@ describe(`[Hacker Rank] Tests RecursiveDigitSum`, () => {
     expect(result).toBe('3');
   });
   it(`(9875, 4) should return 3`, () => {
-    const result = superDigit('9875',4)
+    const result = superDigit('9875', 4)
     expect(result).toBe('8');
   });
   it(`(123, 3) should return 3`, () => {
     const result = superDigit('123', 3)
     expect(result).toBe('9');
+  });
+});
+
+describe(`[Hacker Rank] Tests Cardinality Sort`, () => {
+  it(`([2, 5, 3, 6, 7]) should return [2, 3, 5, 6, 7]`, () => {
+    const result = cardinalitySort([2, 5, 3, 6, 7])
+    expect(result).toStrictEqual([2, 3, 5, 6, 7]);
   });
 });
