@@ -11,6 +11,7 @@ import { compareTriplets } from './CompareTheTriplets';
 import { superDigit } from './RecursiveDigitSum';
 import { cardinalitySort } from './CardinalitySorting';
 import { sortRoman } from './AncestralNames';
+import { pointsBelong } from './DoTheyBelong';
 
 // To run this test only:
 // npm test -- hackerrank/HackerRank.test.js
@@ -106,5 +107,12 @@ describe(`[Hacker Rank] Tests Ancestral Names`, () => {
   it(`(['Louis XI', 'Louis I', 'Fillipe II']) should return ['Fillipe II', 'Louis I', 'Louis XI']`, () => {
     const result = sortRoman(['Louis XI', 'Louis I', 'Fillipe II'])
     expect(result).toStrictEqual(['Fillipe II', 'Louis I', 'Louis XI']);
+  });
+});
+
+describe(`[Hacker Rank] Tests Do They Belong`, () => {
+  it(`([3, 1, 7, 1, 5, 5, 5, 2, 6, 3]) should return 3`, () => {
+    const result = pointsBelong([3, 1, 7, 1, 5, 5, 5, 2, 6, 3])
+    expect(result).toBe(0);
   });
 });
