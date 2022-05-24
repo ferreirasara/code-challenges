@@ -10,10 +10,13 @@ Resolution of code challenges.
   - [React Like Button](https://github.com/ferreirasara/code-challenges/blob/main/codillity/exercises/Exercise08ReactLikeButton.jsx)
   - [Tennis Tournament](https://github.com/ferreirasara/code-challenges/blob/main/codillity/exercises/Exercise03TennisTournament.js)
 - **HackerRank**:
+  - [Ancestral Names](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/AncestralNames.js)
   - [Caesar Cipher](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/CaesarCipher.js)
+  - [Cardinality Sorting](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/CardinalitySorting.js)
   - [Compare The Triplets](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/CompareTheTriplets.js)
   - [Counting Sort 1](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/CountingSort1.js)
   - [Diagonal Difference](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/DiagonalDifference.js)
+  - [Do THey Belong](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/DoTheyBelong.js)
   - [Find The Median](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/FindTheMedian.js)
   - [Lonely Integer](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/LonelyInteger.js)
   - [Mini Max Sum](https://github.com/ferreirasara/code-challenges/blob/main/hackerrank/MiniMaxSum.js)
