@@ -10,6 +10,7 @@ import { caesarCipher } from './CaesarCipher';
 import { compareTriplets } from './CompareTheTriplets';
 import { superDigit } from './RecursiveDigitSum';
 import { cardinalitySort } from './CardinalitySorting';
+import { sortRoman } from './AncestralNames';
 
 // To run this test only:
 // npm test -- hackerrank/HackerRank.test.js
@@ -98,5 +99,12 @@ describe(`[Hacker Rank] Tests Cardinality Sort`, () => {
   it(`([2, 5, 3, 6, 7]) should return [2, 3, 5, 6, 7]`, () => {
     const result = cardinalitySort([2, 5, 3, 6, 7])
     expect(result).toStrictEqual([2, 3, 5, 6, 7]);
+  });
+});
+
+describe(`[Hacker Rank] Tests Ancestral Names`, () => {
+  it(`(['Louis XI', 'Louis I', 'Fillipe II']) should return ['Fillipe II', 'Louis I', 'Louis XI']`, () => {
+    const result = sortRoman(['Louis XI', 'Louis I', 'Fillipe II'])
+    expect(result).toStrictEqual(['Fillipe II', 'Louis I', 'Louis XI']);
   });
 });
